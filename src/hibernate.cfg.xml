@@ -10,5 +10,7 @@
 		<property name="hibernate.connection.password">password</property>
 		<property name="hibernate.hbm2ddl.auto">create</property>
 		<mapping class="database.User" />
+		<mapping class="database.Aable"/>
+		
 	</session-factory>
 </hibernate-configuration>
